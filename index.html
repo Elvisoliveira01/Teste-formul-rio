@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+ 
+</head>
+<body>
+  
+  <header>
+    <h1>Teste de Formulário</h1>
+  </header>
+  <main>
+    <form action="teste.php">
+        <p>
+            <label for="inome">Nome Completo</label> <br>
+            <input type="text" name="nome" id="inome" required placeholder="João santos vieira">
+        </p>
+        <p>
+            <label for="idade">Idade</label> <br>
+            <input type="date" name="nascimento" required>
+        </p>
+        <p>
+            <label for="iemail">E-mail</label> <br>
+            <input type="email" required placeholder="elvisoliveira@gmail.com">
+        </p>
+        <p>
+            <label for="ilinkedin"> Linkedin (opcional)</label> <br>
+            <input type="url" name="linkedin" id="ilinkedin">
+        </p>
+        <p>
+            
+            <input type="submit" value="cadastrar">
+            <input type="reset" value="apagar dados ">
+            
+        </p>
+
+
+
+
+    </form>
+  </main>
+
+</body>
+</html>
